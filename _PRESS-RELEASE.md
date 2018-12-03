@@ -1,4 +1,4 @@
-# Project Name #
+# Yelpal #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Mealpal restaurants with Yelp ratings.
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Mealpal users now can view ratings of the restaurant.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Yelpal provides Yelp ratings for Mealpal restaurants. Mealpal users do not have to manually search restaurants on Yelp to find out rating of restaurants.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Mealpal currently does not provide rating of restaurants for users. Mealpal users only have location of restarants and photos of food to make their lunch decision. Now, Yelpal provides list of Mealpal restaurants with Yelp ratings!
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > It uses Yelp API to get ratings of restaurants participating in Mealpal.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > I use Yelpal everyday for my Mealpal lunch!
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Just go to link ___
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > Making lunch decision on Mealpal became so much easier with Yelpal! - James 
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Yelp rating is overall rating including customer service. However, Mealpal only provides meals for pick up. I would like to create more specific rating system fit better for mealpal. Multiple rating domain such as how fresh or warm food is when it is handed to customer, how close food look with images the restaurant provided, and how delicious it was. 
