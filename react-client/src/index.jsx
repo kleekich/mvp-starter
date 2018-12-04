@@ -62,7 +62,7 @@ class App extends React.Component {
         <img className={styles.mealpal} src='https://s3-eu-west-1.amazonaws.com/tpd/logos/58bfeaf90000ff00059e0e26/0x0.png'/>
         <img className={styles.yelp} src='https://cdn.vox-cdn.com/thumbor/IolwDNln-KxOO4G36GHWpYWixA8=/0x0:1100x733/1820x1213/filters:focal(0x0:1100x733):format(webp)/cdn.vox-cdn.com/assets/884081/Yelp_Logo_No_Outline_Color-01.jpg'/>
       </span>
-      <h1>Mealpal Restaurants with Yelp Rating</h1>
+      <h1 className={styles.title}>Yelpal: Mealpal Restaurants with Yelp Rating</h1>
       
       <List items={this.state.items}/>
       <button onClick={() => this.handleClickButton(this.state.page-1)}>Prev</button><button onClick={() => this.handleClickButton(this.state.page+1)}>Next</button>

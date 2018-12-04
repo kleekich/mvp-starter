@@ -7,7 +7,7 @@ const ListItem = (props) => (
     <div className={styles.listItem}>
       <div className={styles.leftColumn}>
         <span className={styles.name}>{props.item.name}</span>
-        <span className={styles.rating}>({props.item.rating}) </span>
+        <span className={styles.rating}> ({props.item.rating.toFixed(1)}) </span>
       </div>
       <StarRatings
             rating={props.item.rating}
