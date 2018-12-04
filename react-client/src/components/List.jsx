@@ -1,9 +1,12 @@
 import React from 'react';
 import ListItem from './ListItem.jsx';
+import styles from './styles/List.css';
 
 const List = (props) => (
   <div>
-    { props.items.map(item => <ListItem item={item}/>)}
+    <ul className={styles.list}>
+      { props.items.map(item => <ListItem item={item}/>)}
+    </ul>
   </div>
 )
 

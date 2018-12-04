@@ -1,0 +1,19 @@
+.body{
+  text-align: center;
+}
+.header{
+  float:left
+}
+
+.mealpal{
+  max-width: 150px;
+  max-height: 150px;
+  padding-left: 100px;
+
+}
+
+.yelp {
+  max-width: 100px;
+    max-height: 100px;
+    padding-bottom: 85px;
+}
