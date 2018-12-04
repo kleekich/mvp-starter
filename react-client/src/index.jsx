@@ -57,7 +57,7 @@ class App extends React.Component {
   }
   render () {
     return (<div>
-      <h1>Mealpal Restaurant List with Yelp Rating</h1>
+      <h1>Mealpal Restaurants with Yelp Rating</h1>
       <List items={this.state.items}/>
       <p>Page {this.state.page}</p>
       <button onClick={() => this.handleClickButton(this.state.page-1)}>Prev</button><button onClick={() => this.handleClickButton(this.state.page+1)}>Next</button>

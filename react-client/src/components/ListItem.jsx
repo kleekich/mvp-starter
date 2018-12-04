@@ -1,12 +1,17 @@
 import React from 'react';
-import HeaderStars from './HeaderStars.jsx';
+import StarRatings from 'react-star-ratings';
 import style from './styles/ListItem.css';
 
 const ListItem = (props) => (
   
   <div className='listItem'>
     {props.item.name}({props.item.rating})
-    <HeaderStars avgRating={ props.item.rating }/>
+    <StarRatings
+          rating={props.item.rating}
+          starRatedColor='#e94225'
+          numberOfStars={5}
+          name='rating'
+        />
     - {props.item.review_count} reviews
   </div>
 
