@@ -14,7 +14,7 @@ class App extends React.Component {
     this.handleClickButton = this.handleClickButton.bind(this);
   }
 
-  componentDidMount() {
+  componentDidMount() { 
     $.ajax({
       url: `/items/${this.state.page}`,
       method: 'POST',
@@ -57,7 +57,7 @@ class App extends React.Component {
   }
   render () {
     return (<div>
-      <h1>Mealpal Restaurant List</h1>
+      <h1>Mealpal Restaurant List with Yelp Rating</h1>
       <List items={this.state.items}/>
       <p>Page {this.state.page}</p>
       <button onClick={() => this.handleClickButton(this.state.page-1)}>Prev</button><button onClick={() => this.handleClickButton(this.state.page+1)}>Next</button>
